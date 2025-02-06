@@ -4,6 +4,8 @@ You may don't know what you don't know, a mind map can help you
 
 ![software engineering patterns](./img/software_engineering_patterns.png)
 
+See the mind map in detail: https://mm.tt/app/map/3600495906?t=ouhxD4pmvM
+
 * [Principle Patterns](#principle-patterns)
     - [SOLID](#solid)
         - [Single Responsibility](#single-responsibility)
