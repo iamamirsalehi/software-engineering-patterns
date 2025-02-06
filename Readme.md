@@ -87,9 +87,19 @@ The word is **Change**, We all follow the SOLID to make our code changable, so i
 
 4. https://gist.github.com/iamamirsalehi/de5b66e5615a46fd550634e3077fc9b2
 
-5. collaborator classes, if a package or class uses collaborator classes and does not do many works it mean it follows single Reposibility pattern
+5. Collaborator classes, if a package or class uses collaborator classes and does not do many works it means it follows single Reposibility pattern
 
 #### Open-Closed
+
+1. You should be able to extend a class behaviour without modifying it. **A unit of code** can be considered **open for extension**. The fact the **no actual modification** is needed to change **the behaviour of a unit of code** makes it **closed** for modification
+
+2. When you use your laptop and plug in your usd flash or your external hard drive, you don't have to make changes in your laptop to support these two kind of devices, you just use the USD port
+
+3. https://github.com/iamamirsalehi/project-with-milad/blob/main/app/Application/Service/PaymentService/PaymentService.php
+
+4. 
+
+5. Extending a class behaviour by just passing to its constrcutor without changing the class itself, **Abstract factory** can also help to produce families of related objects without specifying their concrete 
 
 #### Liskove
 
@@ -153,13 +163,23 @@ The word is **Change**, We all follow the SOLID to make our code changable, so i
 
 ## Architectural Patterns
 
+### CQRS
+
 ## Reliability Patterns
 
+### Circuit Breaker pattern
+
+### Saga
+
 ## Concurrency Patterns
+
+### Worker Pool
 
 ## Data Patterns
 
 ## Anti-Patterns
+
+### Chatty I/O
 
 ## Integration Patterns
 
@@ -168,6 +188,12 @@ The word is **Change**, We all follow the SOLID to make our code changable, so i
 ## Evolutionary Patterns
 
 ## Deployment Patterns
+
+### Canary releases
+### Blue/green deployments
+### Feature toggles
+### A/B testing
+### Dark launches
 
 ## Testing Patterns
 
