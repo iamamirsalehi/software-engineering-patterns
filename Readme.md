@@ -65,11 +65,29 @@ If you follow all the 5 steps you understood the pattern deeply
 
 ## Principle Patterns
 
-### SOLID
+Recommanded books: 
+1. Matthias Noback - Principles of Package Design_ Creating Reusable Software Components-Apress (2018) - Part 1
+2. Simple Object-Oriented Design: Create clean, maintainable applications
 
-### DRY
+### SOLID 
+
+Why do we need SOLID? 
+I believe that most of developers know the 5 princples of SOLID but they don't know why they are using it, before reading the following sentence ask your self, if you could explain solid in just **one word** what would it be?
+
+The word is **Change**, We all follow the SOLID to make our code changable, so if we wanted to write a project that we would never change it, maybe it's pointless to apply SOLID to our code.
+
 
 #### Single Responsibility
+
+1. The Reposibility term is so confusing, what we define responsibility? What is exatly responsibility? maybe every developer has its own definition of responsibility. I think the better term to use for defining responsibility is cohesion. Responsibility are the resoans to change
+
+2. Imagine you build a university and at the first you hire someone who does lots of things, but as more students gets into the university you want your employees work efficiently, so you may give them only one responsibility.
+
+3. https://github.com/ory/dockertest/blob/207b20aded3b6876a3acb2a6cdc4447eb8f49bfc/docker/event.go#L121
+
+4. https://gist.github.com/iamamirsalehi/de5b66e5615a46fd550634e3077fc9b2
+
+5. collaborator classes, if a package or class uses collaborator classes and does not do many works it mean it follows single Reposibility pattern
 
 #### Open-Closed
 
@@ -79,13 +97,13 @@ If you follow all the 5 steps you understood the pattern deeply
 
 #### Dependency Inversion
 
+### DRY
+
 ## Design Patterns
 
 ### Creational
 
 #### Factory Method
-
-
 
 #### Abstract Factory
 
