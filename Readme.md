@@ -13,6 +13,31 @@ You may don't know what you don't know, a mind map can help you
         - [Dependency Inversion](#dependency-inversion)
     - [DRY](#custom-renderers)
 * [Design Patterns](#design-patterns)
+    - [Creational](#creational)
+        - [Factory Method](#factory-method)
+        - [Abstract Factory](#)
+        - [Builder](#)
+        - [Prototype](#)
+        - [Singleton](#)
+    - [Behavioral](#behavioral)
+        - [Chain of Responsibility](#)
+        - [Command](#)
+        - [Iterator](#)
+        - [Mediator](#)
+        - [Memento](#)
+        - [Observer](#)
+        - [State](#)
+        - [Strategy](#)
+        - [Template Method](#)
+        - [Visitor](#)
+    - [Structural](#structural)
+        - [Adapter](#)
+        - [Bridge](#)
+        - [Composite](#)
+        - [Decorator](#)
+        - [Facade](#)
+        - [Flyweight](#)
+        - [Proxy](#)
 * [Architectural Patterns](#architectural-patterns)
 * [Reliability Patterns](#reliability-patterns)
 * [Concurrency Patterns](#concurrency-patterns)
@@ -31,13 +56,24 @@ You may don't know what you don't know, a mind map can help you
 ### SOLID
 
 #### Single Responsibility
+
 #### Open-Closed
+
 #### Liskove
+
 #### Interface Segregation
+
 #### Dependency Inversion
 
-
 ## Design Patterns
+
+### Creational
+
+#### Factory Method
+
+### Behavioral
+
+### Structural
 
 ## Architectural Patterns
 
