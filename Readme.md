@@ -11,33 +11,33 @@ You may don't know what you don't know, a mind map can help you
         - [Liskove](#liskove)
         - [Interface Segregation](#interface-segregation)
         - [Dependency Inversion](#dependency-inversion)
-    - [DRY](#custom-renderers)
+    - [DRY](#dry)
 * [Design Patterns](#design-patterns)
     - [Creational](#creational)
         - [Factory Method](#factory-method)
-        - [Abstract Factory](#)
-        - [Builder](#)
-        - [Prototype](#)
-        - [Singleton](#)
+        - [Abstract Factory](#abstract-factory)
+        - [Builder](#builder)
+        - [Prototype](#prototype)
+        - [Singleton](#singleton)
     - [Behavioral](#behavioral)
-        - [Chain of Responsibility](#)
-        - [Command](#)
-        - [Iterator](#)
-        - [Mediator](#)
-        - [Memento](#)
-        - [Observer](#)
-        - [State](#)
-        - [Strategy](#)
-        - [Template Method](#)
-        - [Visitor](#)
+        - [Chain of Responsibility](#chain-of-responsibility)
+        - [Command](#command)
+        - [Iterator](#iterator)
+        - [Mediator](#mediator)
+        - [Memento](#memento)
+        - [Observer](#observer)
+        - [State](#state)
+        - [Strategy](#strategy)
+        - [Template Method](#template-method)
+        - [Visitor](#visitor)
     - [Structural](#structural)
-        - [Adapter](#)
-        - [Bridge](#)
-        - [Composite](#)
-        - [Decorator](#)
-        - [Facade](#)
-        - [Flyweight](#)
-        - [Proxy](#)
+        - [Adapter](#adapter)
+        - [Bridge](#bridge)
+        - [Composite](#composite)
+        - [Decorator](#decorator)
+        - [Facade](#facade)
+        - [Flyweight](#flyweight)
+        - [Proxy](#proxy)
 * [Architectural Patterns](#architectural-patterns)
 * [Reliability Patterns](#reliability-patterns)
 * [Concurrency Patterns](#concurrency-patterns)
@@ -55,6 +55,8 @@ You may don't know what you don't know, a mind map can help you
 
 ### SOLID
 
+### DRY
+
 #### Single Responsibility
 
 #### Open-Closed
@@ -71,9 +73,51 @@ You may don't know what you don't know, a mind map can help you
 
 #### Factory Method
 
+#### Abstract Factory
+
+#### Builder
+
+#### Prototype
+
+#### Singleton
+
 ### Behavioral
 
+#### Chain of Responsibility
+
+#### Command
+
+#### Iterator
+
+#### Mediator
+
+#### Memento
+
+#### Observer
+
+#### State
+
+#### Strategy
+
+#### Template Method
+
+#### Visitor
+
 ### Structural
+
+#### Adapter
+
+#### Bridge
+
+#### Composite
+
+#### Decorator
+
+#### Facade
+
+#### Flyweight
+
+#### Proxy
 
 ## Architectural Patterns
 
