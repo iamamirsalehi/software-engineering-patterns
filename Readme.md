@@ -192,7 +192,6 @@ The word is **Change**, We all follow the SOLID to make our code changable, so i
 ### Canary releases
 ### Blue/green deployments
 ### Feature toggles
-### A/B testing
 ### Dark launches
 
 ## Testing Patterns
