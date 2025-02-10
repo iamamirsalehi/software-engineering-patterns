@@ -101,6 +101,8 @@ What violate the single responsibility?
 
 #### Open-Closed
 
+A Module should be open for extension but closed for modification.
+
 What violate the Open-Closed principle?
 * It contains conditions to determine a strategy
 * Conditions using the same variables or constants are recurring inside the
