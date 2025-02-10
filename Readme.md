@@ -20,7 +20,7 @@ If you follow all the 5 steps you understood the pattern deeply
     - [SOLID](#solid)
         - [Single Responsibility](#single-responsibility)
         - [Open-Closed](#open-closed)
-        - [Liskove](#liskove)
+        - [Liskov](#liskov)
         - [Interface Segregation](#interface-segregation)
         - [Dependency Inversion](#dependency-inversion)
     - [DRY](#dry)
@@ -119,7 +119,11 @@ What violate the Open-Closed principle?
 
 5. Extending a class behaviour by just passing to its constrcutor without changing the class itself, **Abstract factory** can also help to produce families of related objects without specifying their concrete 
 
-#### Liskove
+#### Liskov
+
+A program that uses an interface must not be confused by an implementation of that interface.
+
+What violate the Liskov princple?
 
 #### Interface Segregation
 
