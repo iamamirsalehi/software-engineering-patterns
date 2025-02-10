@@ -6,7 +6,7 @@ You may don't know what you don't know, a mind map can help you
 
 See the mind map in detail: https://mm.tt/app/map/3600495906?t=ouhxD4pmvM
 
-`Note`: to rate our undrestanding, we rate every pattern out of 5, every number from 1 to 5 has it own meaning
+`Note`: to rate our undrestanding, we rate every pattern out of 5, every number from 1 to 5 has its own meaning
 
 1. Understood the aim of the pattern
 2. Understood the real example of pattern in the day-to-day life
