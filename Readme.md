@@ -79,7 +79,17 @@ The word is **Change**, We all follow the SOLID to make our code changable, so i
 
 #### Single Responsibility
 
-1. The Reposibility term is so confusing, what we define responsibility? What is exatly responsibility? maybe every developer has its own definition of responsibility. I think the better term to use for defining responsibility is cohesion. Responsibility are the resoans to change
+Robert C. Martin (Uncle Bob) defines the Single Responsibility Principle as:
+**Each software module should have one and only one reason to change.**
+
+What violate the single responsibility?
+
+* The class has many instance variable
+* The class has many public methods
+* Each method of the class uses different instance variables
+* Specific tasks are delegated to private method
+
+1. The Responsibility term is so confusing, what we define responsibility? What is exactly responsibility? maybe every developer has its own definition of responsibility. I think the better term to use for defining responsibility is cohesion. Responsibility are the reasons to change
 
 2. Imagine you build a university and at the first you hire someone who does lots of things, but as more students gets into the university you want your employees work efficiently, so you may give them only one responsibility.
 
@@ -90,6 +100,14 @@ The word is **Change**, We all follow the SOLID to make our code changable, so i
 5. Collaborator classes, if a package or class uses collaborator classes and does not do many works it means it follows single Reposibility pattern
 
 #### Open-Closed
+
+What violate the Open-Closed principle?
+* It contains conditions to determine a strategy
+* Conditions using the same variables or constants are recurring inside the
+  class or related classes.
+* The class contains hard-coded references to other classes or class names.
+* Inside the class, objects are being created using the new operator.
+* The class has protected properties or methods, to allow changing its behavior by overriding state or behavior.
 
 1. You should be able to extend a class behaviour without modifying it. **A unit of code** can be considered **open for extension**. The fact the **no actual modification** is needed to change **the behaviour of a unit of code** makes it **closed** for modification
 
