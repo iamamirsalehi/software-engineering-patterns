@@ -163,7 +163,7 @@ Now, we want to add Dropbox
 type Dropbox struct {}
 
 func (d *Dropbox) Rename(fileName string) error {
-	// Implementation of renaming a local file
+	// Implementation of renaming a dropbox file
     return nil
 }
 
