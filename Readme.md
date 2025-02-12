@@ -171,9 +171,10 @@ func (l *Dropbox) ChangeOwner(user, group string) error {
     panic("can not change owner of a file")
 }
 ```
+
 As you can see Dropbox is not a good substitute for File interface because I does not implement the ```ChangeOwner``` method. <br />
 So the File interface turned out to be an improper generalization of the "file" concept. such improper generalization is usually called a **Leaky Abstraction**
----
+
 
 1. Dissecting the principle, we recognize two conceptual parts. First it’s about derived
    classes and base classes. Then it’s about being substitutable. 
