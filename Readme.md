@@ -66,15 +66,15 @@ If you follow all the 5 steps you understood the pattern deeply
 ## Principle Patterns
 
 Recommanded books: 
-1. Matthias Noback - Principles of Package Design_ Creating Reusable Software Components-Apress (2018) - Part 1
+1. Matthias Noback - Principles of Package Design_ Creating Reusable Software Components-Apres (2018) - Part 1
 2. Simple Object-Oriented Design: Create clean, maintainable applications
 
 ### SOLID 
 
 Why do we need SOLID? 
-I believe that most of developers know the 5 princples of SOLID but they don't know why they are using it, before reading the following sentence ask your self, if you could explain solid in just **one word** what would it be?
+I believe that most of developers know the 5 principles of SOLID but they don't know why they are using it, before reading the following sentence ask yourself if you could explain solid in just **one word** what would it be?
 
-The word is **Change**, We all follow the SOLID to make our code changable, so if we wanted to write a project that we would never change it, maybe it's pointless to apply SOLID to our code.
+The word is **Change**, We all follow the SOLID to make our code changeable, so if we wanted to write a project that we would never change it, maybe it's pointless to apply SOLID to our code.
 
 
 #### Single Responsibility
@@ -119,7 +119,7 @@ What violate the Open-Closed principle?
 
 4. 
 
-5. Extending a class behaviour by just passing to its constrcutor without changing the class itself, **Abstract factory** can also help to produce families of related objects without specifying their concrete 
+5. Extending a class behaviour by just passing to its constructor without changing the class itself, **Abstract factory** can also help to produce families of related objects without specifying their concrete 
 
 #### Liskov
 
@@ -127,11 +127,59 @@ A program that uses an interface must not be confused by an implementation of th
 
 What violate the Liskov principle?
 * When a class does not have a proper implementation for all the methods of its parent
-class (or its interface for that matter)
+class (or its interface for that matter) <br />
+Another violation is **Leaky abstraction**, I'll explain this in the following sentence.
 * Different substitutes return things at different types
 * A derived class is less permissive with regard to method arguments
 * Secretly programming against a more specific type
 
+What is **Leaky Abstraction**?
+
+Imagine you have an interface called File
+```go
+type File interface{
+	Rename(fileName string) error
+	ChangeOwner(user, group string) error
+}
+```
+Then you want to implement a local file concrete
+
+```go
+type LocalFile struct {}
+
+func (l *LocalFile) Rename(fileName string) error {
+	// Implementation of renaming a local file
+    return nil
+}
+
+func (l *LocalFile) ChangeOwner(user, group string) error {
+    // Implementation of changing owner of a file
+    return nil
+}
+```
+Now, we want to add Dropbox
+
+```go
+type Dropbox struct {}
+
+func (l *Dropbox) Rename(fileName string) error {
+	// Implementation of renaming a local file
+    return nil
+}
+
+func (l *Dropbox) ChangeOwner(user, group string) error {
+    panic("can not change owner of a file")
+}
+```
+As you can see Dropbox is not a good substitute for File interface because I does not implement the ```ChangeOwner``` method. <br />
+So the File interface turned out to be an improper generalization of the "file" concept. such improper generalization is usually called a **Leaky Abstraction**
+---
+
+1. Dissecting the principle, we recognize two conceptual parts. First it’s about derived
+   classes and base classes. Then it’s about being substitutable. 
+   Bringing the two concepts together, the Liskov Substitution principle says that if we
+   create a class that extends another class or implements an interface, it has to behave as
+   expected.
 #### Interface Segregation
 
 #### Dependency Inversion
