@@ -125,7 +125,12 @@ What violate the Open-Closed principle?
 
 A program that uses an interface must not be confused by an implementation of that interface.
 
-What violate the Liskov princple?
+What violate the Liskov principle?
+* When a class does not have a proper implementation for all the methods of its parent
+class (or its interface for that matter)
+* Different substitutes return things at different types
+* A derived class is less permissive with regard to method arguments
+* Secretly programming against a more specific type
 
 #### Interface Segregation
 
