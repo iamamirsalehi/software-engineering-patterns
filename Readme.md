@@ -162,12 +162,12 @@ Now, we want to add Dropbox
 ```go
 type Dropbox struct {}
 
-func (l *Dropbox) Rename(fileName string) error {
+func (d *Dropbox) Rename(fileName string) error {
 	// Implementation of renaming a local file
     return nil
 }
 
-func (l *Dropbox) ChangeOwner(user, group string) error {
+func (d *Dropbox) ChangeOwner(user, group string) error {
     panic("can not change owner of a file")
 }
 ```
