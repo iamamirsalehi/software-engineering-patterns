@@ -181,9 +181,29 @@ So the File interface turned out to be an improper generalization of the "file" 
    Bringing the two concepts together, the Liskov Substitution principle says that if we
    create a class that extends another class or implements an interface, it has to behave as
    expected.
+2. If you have car your know that you have to change its motor oil at specific KMs, if your consider that every car that wants to change its motor oil has to go over lubritorium then this role does not work for Motorcycle.
+3. 
+4. Pointed out in the Leaky abstraction example
+5. Seperated interfaces 
 #### Interface Segregation
 
+Make fine-grained interfaces that are client specific. <br />
+“Fine-grained interfaces” stands for interfaces with a small amount of methods.
+“Client specific” means that interfaces should define methods that make sense from the
+point of view of the client that uses the interface.
+
+What violate the Interface Segregation?
+1. Multiple usecases
+2. No interface, Just a class
+
 #### Dependency Inversion
+
+Depend on abstractions, not on concretions. <br />
+
+The name of this principle contains the word “inversion,” from which we may infer
+that without following this principle we would usually depend on concretions, not on
+abstractions. The principle tells us to invert that direction: we should always depend on
+abstractions.
 
 ### DRY
 
