@@ -1,0 +1,4 @@
+# DRY
+The DRY principle, an acronym for “Don’t Repeat Yourself”, emphasizes the importance of avoiding code duplication in our applications. The fundamental idea behind DRY is to have a single, authoritative representation of knowledge within our system. By eliminating duplicated code, we can enhance code maintainability, reduce complexity, and minimize the risk of introducing bugs. Duplicated code can lead to inconsistencies and make future changes more challenging.
+<br />
+DRY extends beyond literal code duplication. It also encompasses the duplication of knowledge and intent. In other words, it’s about expressing the same concept in multiple places, potentially in different ways. To adhere to the DRY principle, we should strive for clean, modular, and reusable code. This can be achieved through techniques such as using methods, classes and inheritance, and interfaces
