@@ -123,7 +123,9 @@ What violate the Open-Closed principle?
 
 #### Liskov
 
-A program that uses an interface must not be confused by an implementation of that interface.
+A program that uses an interface must not be confused by an implementation of that interface. <br />
+
+Derived classes must be substitutable for their base classes.
 
 What violate the Liskov principle?
 * When a class does not have a proper implementation for all the methods of its parent
@@ -193,7 +195,7 @@ Make fine-grained interfaces that are client specific. <br />
 point of view of the client that uses the interface.
 
 What violate the Interface Segregation?
-1. Multiple usecases
+1. Multiple usecases (Just like service containers)
 2. No interface, Just a class
 
 #### Dependency Inversion
@@ -274,7 +276,13 @@ DRY extends beyond literal code duplication. It also encompasses the duplication
 
 ## Concurrency Patterns
 
+### For Select
+
 ### Worker Pool
+
+### Pipeline
+
+### Fanin Fanout
 
 ## Data Patterns
 
