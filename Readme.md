@@ -16,14 +16,14 @@ See the mind map in detail: https://mm.tt/app/map/3600495906?t=ouhxD4pmvM
 
 If you follow all the 5 steps you understood the pattern deeply
 
-* [Principle Patterns](#principle-patterns)
-    - [SOLID](#solid)
-        - [Single Responsibility](#single-responsibility)
-        - [Open-Closed](#open-closed)
-        - [Liskov](#liskov)
-        - [Interface Segregation](#interface-segregation)
-        - [Dependency Inversion](#dependency-inversion)
-    - [DRY](#dry)
+* [Principle Patterns](patterns/principle-patterns/README.md)
+    - [SOLID](patterns/principle-patterns/SOLID/README.md)
+        - [Single Responsibility](patterns/principle-patterns/SOLID/1-single-responsibility/README.md)
+        - [Open-Closed](patterns/principle-patterns/SOLID/2-open-closed/README.md)
+        - [Liskov](patterns/principle-patterns/SOLID/3-liskov/README.md)
+        - [Interface Segregation](patterns/principle-patterns/SOLID/4-interface-segregation/README.md)
+        - [Dependency Inversion](patterns/principle-patterns/SOLID/5-dependency-inversion/README.md)
+    - [DRY](patterns/principle-patterns/DRY/README.md)
 * [Design Patterns](#design-patterns)
     - [Creational](#creational)
         - [Factory Method](#factory-method)
@@ -62,102 +62,3 @@ If you follow all the 5 steps you understood the pattern deeply
 * [Testing Patterns](#testing-patterns)
 * [Scalability Patterns](#scalability-patterns)
 * [Security Patterns](#security-patterns)
-
-## Principle Patterns
-
-## Design Patterns
-
-### Creational
-
-#### Factory Method
-
-#### Abstract Factory
-
-#### Builder
-
-#### Prototype
-
-#### Singleton
-
-### Behavioral
-
-#### Chain of Responsibility
-
-#### Command
-
-#### Iterator
-
-#### Mediator
-
-#### Memento
-
-#### Observer
-
-#### State
-
-#### Strategy
-
-#### Template Method
-
-#### Visitor
-
-### Structural
-
-#### Adapter
-
-#### Bridge
-
-#### Composite
-
-#### Decorator
-
-#### Facade
-
-#### Flyweight
-
-#### Proxy
-
-## Architectural Patterns
-
-### CQRS
-
-## Reliability Patterns
-
-### Circuit Breaker pattern
-
-### Saga
-
-## Concurrency Patterns
-
-### For Select
-
-### Worker Pool
-
-### Pipeline
-
-### Fanin Fanout
-
-## Data Patterns
-
-## Anti-Patterns
-
-### Chatty I/O
-
-## Integration Patterns
-
-## Performance Patterns
-
-## Evolutionary Patterns
-
-## Deployment Patterns
-
-### Canary releases
-### Blue/green deployments
-### Feature toggles
-### Dark launches
-
-## Testing Patterns
-
-## Scalability Patterns
-
-## Security Patterns
