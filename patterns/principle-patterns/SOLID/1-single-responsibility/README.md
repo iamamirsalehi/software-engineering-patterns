@@ -16,6 +16,7 @@ What violate the single responsibility?
 
 3. https://github.com/ory/dockertest/blob/207b20aded3b6876a3acb2a6cdc4447eb8f49bfc/docker/event.go#L121
 
-4. https://gist.github.com/iamamirsalehi/de5b66e5615a46fd550634e3077fc9b2
+4. Examples:
+    - [Golang](example.go)
 
-5. Collaborator classes, if a package or class uses collaborator classes and does not do many works it means it follows single Reposibility pattern
+5. Collaborator classes, if a package or class uses collaborator classes and does not do many works it means it follows single Responsibility pattern
