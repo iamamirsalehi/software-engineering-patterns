@@ -11,7 +11,7 @@ See the mind map in detail: https://mm.tt/app/map/3600495906?t=ouhxD4pmvM
 1. Understood the aim of the pattern
 2. Understood the real example of pattern in the day-to-day life
 3. Found some examples in the product code or open-source projects
-4. Implemented an example in github gist
+4. Implemented an example
 5. Sign of the pattern
 
 If you follow all the 5 steps you understood the pattern deeply
