@@ -18,7 +18,7 @@ Imagine you have something to tell your friend but you tell him/her just one wor
 
 - [An example in github PR](https://github.com/skkuding/codedang/pull/2682)
 
-## 4.Implemented an example
+## 4.Implement an example
 
 Implemented examples are:
 - [Golang](/patterns/anti-patterns/chatty-io/example.go)
